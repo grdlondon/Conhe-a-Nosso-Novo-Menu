@@ -7,6 +7,7 @@
     border-radius: 10px;
 border: solid rgba(245, 229, 4, 0.986);
 margin-right: 40px;
+
 }
 
 h1{
@@ -17,15 +18,17 @@ text-align: center;
 padding-bottom: 20px;
 padding-top: 2%;
 
-
 }
 
  .first{
     color: rgba(235, 212, 7, 0.966);
-    width: 50%;
     padding-bottom: 
     background-color rgba(214, 226, 211, 0.808);
     padding-bottom:5px;
+    text-align: center;
+}
 
-
+p{
+    color: rgb(237, 241, 240);
+    text-align: center;
 }

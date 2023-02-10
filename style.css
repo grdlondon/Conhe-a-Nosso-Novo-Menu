@@ -11,24 +11,23 @@ margin-right: 40px;
 }
 
 h1{
-    
-text-align: center;
-    border-bottom: 5px solid rgba(252, 248, 2, 0.89);
+    border-bottom: 5px solid rgba(252, 206, 2, 0.884);
     margin-top: 70px;
-padding-bottom: 20px;
-padding-top: 2%;
+padding-bottom: 30px;
+padding-top: 5%;
 
 }
 
  .first{
-    color: rgba(235, 212, 7, 0.966);
+    color: rgba(189, 207, 20, 0.966);
     padding-bottom: 
-    background-color rgba(214, 226, 211, 0.808);
-    padding-bottom:5px;
-    text-align: center;
+    background-color rgba(240, 241, 238, 0.973);
+        text-align: center;
+    font-family: sans-serif;
 }
 
-p{
-    color: rgb(237, 241, 240);
-    text-align: center;
+
+
+img{
+    border: solid rgb(147, 199, 75);
 }

@@ -7,7 +7,12 @@
     border-radius: 10px;
 border: solid rgba(245, 229, 4, 0.986);
 margin-right: 40px;
+display: flex;
+align-items: center;
+flex-direction: column;
+
 /*Corpo da Pagina Vermelho e Bordas Amarelas*/
+
 }
 
 h1{
@@ -16,27 +21,28 @@ h1{
 padding-bottom: 30px;
 padding-top: 5%;
 /*Linha Amarela */
+
 }
 
  .first{
     color: rgba(243, 119, 4, 0.966);
-    padding-bottom: 
-    background-color rgba(6, 61, 240, 0.973);
-        text-align: center;
+     text-align: center;
     font-family: sans-serif;
     border: solid rgba(240, 217, 16, 0.911);
     padding-top: 10px;
     padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 /* Cor dos Textos  */
 
 /*Cor da Borda Verde*/
 img{
     border: solid rgba(238, 238, 237, 0.986);
-}
-.show{
-    display: block;
-}
-.noshow{
     display: none;
+    align-self: center;
 }
+button{
+ margin: 15px;
+}
+

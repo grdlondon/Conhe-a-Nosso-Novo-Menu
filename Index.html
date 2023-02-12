@@ -6,52 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conheça Nosso Novo Menu</title>
     <link rel="stylesheet" href="style.css">
-
-    <!--Foto Dois Hamburgures-->
-<img class="show" id="imagem1"src="280x280  dois hambur new.jpeg" alt="">
-<button id="button1" onclick="buttom()"  value="mostrar">
-Mostrar
-</button>
-<!--Fotos Conheça Nosso Lanche-->
-<img class="show" id="imagem2"src="280x280  lanche new (3).jpeg" alt="">
-<button id="button2" onclick="buttom()"  value="mostrar">
-Mostrar
-</button>
-<!--Fotos Hamburguer Batata frita e Refrigerante-->
-<img class="show" id="imagem3"src="280x280  batata  refri  hamb new (4).jpeg" alt="">
-<button id="button3" onclick="buttom()"  value="mostrar">
-Mostrar
-</button>
-<!--Foto Refrigrante em Lata-->
-<img class="show" id="imagem4"src="280x280  refri new (2).jpeg" alt="">
-<button id="button4" onclick="buttom()"  value="mostrar">
-Mostrar
-</button>
-
+<script src="main.js" defer></script>
 
 </head>
 <body>
 <h1 class="first">SPECIAL BURGUER</h1>
 
-<div class="Produto"> 
-<h3 class="first">PROMOÇÃO DOIS  HAMBÚRGUERES</h3>
-<img src="/imagem/280x280  dois hambur new.jpeg" alt="hambúrguer">
-</Div>
+<!--Dois Hamburgures-->
 
-<div class="Produto">
-<h3 class="first">CONHEÇA NOSSO NOVO LANCHE </h3>
-<img src="/imagem/280x280  lanche new (3).jpeg" alt="Conheça nosso Novo lanche ">
+<div class="Produto"> 
+    <h3 class="first">PROMOÇÃO DOIS  HAMBÚRGUERES</h3>
+    <img id="imagem1"src="/imagem/280x280  dois hambur new.jpeg" alt="hambúrguer">
+
+    <button onclick="car1()">Clique Aqui</button>
 </div>
 
+    
+
+
+<!--Conheça Nosso Lanche-->
+<div class="Produto">
+<h3 class="first">CONHEÇA NOSSO NOVO LANCHE </h3>
+<img id="imagem2" src="/imagem/280x280  lanche new (3).jpeg" alt="Conheça nosso Novo lanche ">
+<button onclick="car2()">Clique Aqui</button>
+</div>
+
+<!--Hamburguer Batata Refrigerante-->
 <div class="Produto">
     <h3 class="first">HAMBÚRGUER BATATA FRITA E REFRIGERANTE </h3>
-   <img src="/imagem/280x280  batata  refri  hamb new (4).jpeg" alt="Hamburguer batata frita e refrigerante ">
+   <img id="imagem3" src="/imagem/280x280  batata  refri  hamb new (4).jpeg" alt="Hamburguer batata frita e refrigerante ">
+   <button onclick="car3()">Clique Aqui</button>
     </div>
 
-
+<!--Refrigerante Lata-->
     <div class="Produto">
     <h3 class="first">REFRIGERANTE LATA </h3>
-   <img src="/imagem/280x280  refri new (2).jpeg" alt="refrigerante ">
+   <img id="imagem4"src="/imagem/280x280  refri new (2).jpeg" alt="refrigerante ">
+   <button onclick="car4()">Clique Aqui</button>
         </div>
 
     
